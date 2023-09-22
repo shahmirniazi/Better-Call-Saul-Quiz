@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+
+}
+body {
+    margin: 0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    
+
+}
+
+.quiz-app {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFE882;
+    align-items: center; /* Center items horizontally */
+    padding: 20px; /* Add padding to create space inside the .quiz-app */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow for depth */
+    max-width: 400px; /* Limit the maximum width of the .quiz-app */
+    text-align: center;
+    
+}
+.title-logo {
+    color: #FF473D;
+    
+}
+.row{
+    width: 50%;
+
+}
+button {
+    background-color: #FFE882;
+    font-weight: 500;
+    width: 80%;
+    min-width: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 20px;
+    
+
+
+
+
+}
+.img-logo {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 50px;
+
+}
+.quiz {
+    background-color: #222;
+
+}
+.option {
+    
+    background-color: #FF473D;
+    margin-top: 15px;
+
+
+
+}
+
+#next-btn {
+    text-align: center;
+    margin-top: 20px;
+    width: 50%;
+    background-color: palegreen;
+    
+}
+
+.correct {
+    background-color: palegreen;
+
+}
+
+.incorrect {
+    background-color: palevioletred;
+}
